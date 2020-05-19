@@ -1,9 +1,13 @@
 import BlogLayout from 'src/layouts/BlogLayout/BlogLayout'
+import { Link, routes } from '@redwoodjs/router'
 
 const AboutPage = () => {
   return (
     <>
-      <BlogLayout>AboutPage</BlogLayout>
+      <BlogLayout>
+        <h1>About</h1>
+       
+      </BlogLayout>
     </>
   )
 }

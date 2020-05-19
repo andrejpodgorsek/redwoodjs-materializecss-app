@@ -6,7 +6,9 @@ const BlogLayout = ({ children }) => {
       <nav>
         <div className="nav-wrapper blue lighten-2">
           <a href="#" className="brand-logo center">
-            Weather app
+            <Link to={routes.home()}>
+              Weather app
+            </Link>
           </a>
           <ul id="nav-mobile" className="left hide-on-med-and-down">
             <li>
