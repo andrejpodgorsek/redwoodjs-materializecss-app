@@ -20,6 +20,9 @@ const BlogLayout = ({ children }) => {
             <li>
               <Link to={routes.weather()}>Weather</Link>
             </li>
+            <li>
+              <Link to={routes.posts()}>Posts</Link>
+            </li>
           </ul>
         </div>
       </nav>
