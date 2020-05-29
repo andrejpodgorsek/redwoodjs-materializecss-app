@@ -36,7 +36,9 @@ const PostForm = (props) => {
           name="title"
           className={CSS.label}
           errorClassName={CSS.labelError}
+
         />
+
         <TextField
           name="title"
           defaultValue={props.post?.title}
@@ -51,6 +53,7 @@ const PostForm = (props) => {
           className={CSS.label}
           errorClassName={CSS.labelError}
         />
+
         <TextField
           name="body"
           defaultValue={props.post?.body}

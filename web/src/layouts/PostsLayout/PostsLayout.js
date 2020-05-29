@@ -12,6 +12,7 @@ const PostsLayout = (props) => {
             >
               Posts
             </Link>
+
           
           </h1>
           <h2>
@@ -23,6 +24,9 @@ const PostsLayout = (props) => {
             </Link>
 
           </h2>
+
+
+
           <Link
             to={routes.newPost()}
             className="flex bg-green-500 hover:bg-green-600 text-white text-xs font-semibold px-3 py-1 uppercase tracking-wide rounded"
